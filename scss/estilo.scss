@@ -1,0 +1,83 @@
+
+body{
+    padding-top:30px;
+}
+
+.container--margin{
+    margin-top: 15vh;
+}
+
+p{
+    text-align: justify;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: "navbar-brand navbar-collapse";
+    display:flex;
+    justify-content: space-around;
+}
+
+.navbar-brand{
+    grid-area: navbar-brand;
+}
+
+.navbar-collapse{
+    grid-area:navbar-collpase;
+}
+
+.navbar-nav .nav-item a {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.foto-fullwidth{
+    width:100%;
+    height:auto;
+}
+
+.menu--link{
+    color: black;
+    background-color: rgb(173, 172, 172);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width:100%;
+}
+
+.fotosFelino{
+    height: 53vh;
+    width: auto;
+}
+
+.fotoVariedadFelino {
+    height: 40vh;
+    width: auto;
+
+}
+
+.footer__redesSociales{
+    transition: all 2s;
+    margin-right: 4%;
+}
+
+.footer__redesSociales:hover{
+    transform: scale(2,2);
+}
+
+.agrandar {
+    transition: all 2s;
+}
+
+.agrandar:focus{
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+
+
+
+

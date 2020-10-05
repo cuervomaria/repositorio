@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Viña Cobos - Visitas</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="../style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<meta name="keywords" content="Viña Cobos, vinos, Mendoza, Paul Hobbs, bodega, Argentina, visitas, degustación">
+	<meta name="description" content="Viva la experiencia de visitar la bodega Viña Cobos y degustar sus vinos">
+</head>
+<body>
+	<div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+                <span class="navbar-brand"><img src="../fotos/logo.png" alt="logo"></span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                  <ul class="navbar-nav mx-auto d-flex justify-content-around text-center">
+					<li class="nav-item">
+						<a class="nav-link" href="../index.html">Inicio</a>
+					  </li>
+					<li class="nav-item ">
+					  <a class="nav-link text-center" href="vinos.html">Vinos </a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="visitas.html">Visitas <span class="sr-only">(current)</span></a>
+					</li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contacto.html">Contactos</a>
+                    </li>
+                   
+                    
+                  </ul>
+                </div>
+              </nav>
+
+         </header>
+    </div>
+
+			<!--<div class="logo">
+				<img src="../fotos/logo.png" alt="logoViñaCobos" id="logo">
+			</div>
+		<nav id="barra">
+			<ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li id="linkVinos"><a href="vinos.html"class="linkActivo">Vinos</a>
+				<ul>
+					<li>Cobos</li>
+					<li><a href="vinosFelinoMalbec.html"class="linkActivo">Felino</a></li>
+				</ul>
+				</li>
+				<li><a href="visitas.html">Visitas</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>-->	
+	</header>
+
+	
+	<div class="container-fluid">
+		<div class="row">
+			
+				<img src="../Fotos/visita.png" alt="degustacion" class="foto-fullwidth">
+			
+		</div>
+	</div>
+
+	<div class="container">
+		<br>
+		<div class="row">
+			<div class="col-12">
+				<h2>HAGA SU RESERVA</h2>
+			</div>
+		</div>
+
+		<form action="#" method="#" id="formularioVisita">
+		<div class="form-group">
+			<label for="nombre">Nombre </label>
+			<input type="text" id="nombre" name="Nombre" class="form-control agrandar"><br>
+		</div>
+		<div class="form-group">
+			<label for="apellido">Apellido </label>
+			<input type="text" id="apellido" name="Apellido" class="form-control agrandar"><br>
+		</div>
+		<div class="form-group">
+			<label for="mail">E-mail </label>
+			<input type="email"  id="mail" name="email" placeholder="xxx@xxx.com" class="form-control agrandar"><br>
+		</div>
+		<div class="form-group">
+			<label for="telefono">Teléfono </label>
+			<input type="number" id="telefono" name="teléfono" placeholder="542614253698" class="form-control agrandar" aria-describedby="telefonoHelp"> 
+			<small  class="form-text text-muted">celular sin el 15 </small>
+		</div>
+		<div class="form-group">
+			<label for="tour">Tour Seleccionado </label>
+			<select class="form-control" id="tour" name="Tour">
+				<option value="Visita">Visita y Degustación</option>
+				<option value="VisitayDegustacion">Degustación</option>
+			</select>
+		</div>
+		
+		<div class="form-group">
+			<label for="fecha">Fecha </label>
+			<input type="date" id="fecha" name="fecha" class="form-control agrandar">
+		</div>
+		
+		<div class="form-group">
+			<label for="cantidad">Cantidad de personas </label>
+			<input type="number" id="cantidad" name="Cantidad" class="form-control agrandar">
+		</div>
+		<div class="form-group">
+			<legend>Idioma</legend>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" name="idioma" id="español" value="Español">
+				<label class="form-check-label" for="español">Español</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" name="idioma" id="inglés" value="Inglés">
+				<label class="form-check-label" for="inglés" >Inglés</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" name="idioma" id="portugués" value="Portugués">
+				<label class="form-check-label" for="portugués">Portugués</label>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<legend>¿Su reserva incluye personas con alguna dificultad motriz?</legend>
+				
+			<div class="form-check">
+				<input type="radio" id="dificultadMotriz" name="dificultadMotriz" value="si">
+				<label class="form-check-label"	for="dificultadMotriz">SI</label>
+			</div>
+			<div class="form-check">
+				<input type="radio" id="dificultadMotrizNo" name="dificultadMotriz" value="no">
+				<label class="form-check-label"	for="dificultadMotrizNo">NO</label>
+			</div>
+		</div>
+
+		<button type="submit" class="btn btn-dark"> Hacer Reserva</button>
+		<button type="reset" class="btn btn-dark"> Limpiar Formulario</button>
+		
+		
+		</form>
+	</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
